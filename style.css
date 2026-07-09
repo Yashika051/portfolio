@@ -125,6 +125,28 @@ section h2 {
   margin-bottom: 8px;
 }
 
+.project-links {
+  margin-top: 18px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.project-btn {
+  display: inline-block;
+  background: #1e3a8a;
+  color: white;
+  padding: 9px 16px;
+  border-radius: 22px;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.project-btn:hover {
+  background: #0f172a;
+}
+
 .tools {
   font-weight: bold;
   color: #475569;
