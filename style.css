@@ -1,0 +1,202 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #1f2937;
+  background: #f8fafc;
+}
+
+.hero {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #0f172a, #1e3a8a);
+  color: white;
+  padding: 30px 8%;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 120px;
+}
+
+nav h2 {
+  font-size: 24px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+  font-size: 15px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.hero-content {
+  max-width: 750px;
+}
+
+.hero-content h1 {
+  font-size: 56px;
+  margin-bottom: 10px;
+}
+
+.hero-content h3 {
+  font-size: 24px;
+  font-weight: 400;
+  margin-bottom: 20px;
+  color: #dbeafe;
+}
+
+.hero-content p {
+  font-size: 18px;
+  margin-bottom: 30px;
+  color: #e0f2fe;
+}
+
+.btn {
+  display: inline-block;
+  background: white;
+  color: #1e3a8a;
+  padding: 12px 24px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.btn:hover {
+  background: #dbeafe;
+}
+
+section {
+  padding: 70px 8%;
+}
+
+section h2 {
+  font-size: 34px;
+  margin-bottom: 25px;
+  color: #0f172a;
+}
+
+#about p,
+#contact p {
+  max-width: 850px;
+  font-size: 17px;
+}
+
+.skills-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.skills-grid span {
+  background: white;
+  border: 1px solid #cbd5e1;
+  padding: 10px 18px;
+  border-radius: 25px;
+  font-size: 15px;
+}
+
+.project-card {
+  background: white;
+  padding: 28px;
+  border-radius: 18px;
+ 1px solid #cbd5e margin-bottom: 25px;
+  box-shadow: 0 8px 24px rgba(15, 23, 42, 0.08);
+  border: 1px solid #e2e8f0;
+}
+
+.project-card h3 {
+  font-size: 24px;
+  color: #1e3a8a;
+  margin-bottom: 8px;
+}
+
+.tools {
+  font-weight: bold;
+  color: #475569;
+  margin-bottom: 14px;
+}
+
+.project-card ul {
+  margin-top: 15px;
+  margin-left: 22px;
+}
+
+.project-card li {
+  margin-bottom: 8px;
+}
+
+.contact-links {
+  margin-top: 25px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.contact-links a {
+  background: #1e3a8a;
+  color: white;
+  padding: 10px 18px;
+  border-radius: 25px;
+  text-decoration: none;
+}
+
+.contact-links a:hover {
+  background: #0f172a;
+}
+
+footer {
+  text-align: center;
+  padding: 25px;
+  background: #-top: 25px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.contact-links a {
+  background: #1e3a8a;
+ 0f172a;
+  color: white;
+  font-size: 14px;
+}
+
+@media (max-width: 768px) {
+  nav {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+    margin-bottom: 80px;
+  }
+
+  nav a {
+    margin-left: 0;
+    margin-right: 12px;
+  }
+
+  .hero-content h1 {
+    font-size: 40px;
+  }
+
+  .hero-content h3 {
+    font-size: 20px;
+  }
+
+  section {
+    padding: 55px 6%;
+  }
+}
