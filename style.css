@@ -11,14 +11,14 @@ html {
 body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
-  color: #1f2937;
-  background: #f8fafc;
+  color: #2f3430;
+  background: #f7f3ea;
 }
 
 .hero {
   min-height: 100vh;
-  background: linear-gradient(135deg, #0f172a, #1e3a8a);
-  color: white;
+  background: linear-gradient(135deg, #1f2a24, #506b5a);
+  color: #fffaf0;
   padding: 30px 8%;
 }
 
@@ -31,25 +31,26 @@ nav {
 
 nav h2 {
   font-size: 24px;
+  letter-spacing: 0.5px;
 }
 
 nav a {
-  color: white;
+  color: #fffaf0;
   text-decoration: none;
   margin-left: 20px;
   font-size: 15px;
 }
 
 nav a:hover {
-  text-decoration: underline;
+  color: #d9ead3;
 }
 
 .hero-content {
-  max-width: 750px;
+  max-width: 760px;
 }
 
 .hero-content h1 {
-  font-size: 56px;
+  font-size: 58px;
   margin-bottom: 10px;
 }
 
@@ -57,19 +58,19 @@ nav a:hover {
   font-size: 24px;
   font-weight: 400;
   margin-bottom: 20px;
-  color: #dbeafe;
+  color: #e9dfcf;
 }
 
 .hero-content p {
   font-size: 18px;
   margin-bottom: 30px;
-  color: #e0f2fe;
+  color: #f5efe3;
 }
 
 .btn {
   display: inline-block;
-  background: white;
-  color: #1e3a8a;
+  background: #f1d6a3;
+  color: #1f2a24;
   padding: 12px 24px;
   border-radius: 30px;
   text-decoration: none;
@@ -77,7 +78,7 @@ nav a:hover {
 }
 
 .btn:hover {
-  background: #dbeafe;
+  background: #e7c47f;
 }
 
 section {
@@ -87,7 +88,7 @@ section {
 section h2 {
   font-size: 34px;
   margin-bottom: 25px;
-  color: #0f172a;
+  color: #1f2a24;
 }
 
 #about p,
@@ -103,53 +104,32 @@ section h2 {
 }
 
 .skills-grid span {
-  background: white;
-  border: 1px solid #cbd5e1;
+  background: #fffaf0;
+  border: 1px solid #d8cdbb;
   padding: 10px 18px;
   border-radius: 25px;
   font-size: 15px;
+  color: #2f3430;
 }
 
 .project-card {
-  background: white;
-  padding: 28px;
-  border-radius: 18px;
- 1px solid #cbd5e margin-bottom: 25px;
-  box-shadow: 0 8px 24px rgba(15, 23, 42, 0.08);
-  border: 1px solid #e2e8f0;
+  background: #fffaf0;
+  padding: 30px;
+  border-radius: 20px;
+  margin-bottom: 25px;
+  box-shadow: 0 10px 28px rgba(31, 42, 36, 0.08);
+  border: 1px solid #e1d6c7;
 }
 
 .project-card h3 {
   font-size: 24px;
-  color: #1e3a8a;
+  color: #3f5f4a;
   margin-bottom: 8px;
-}
-
-.project-links {
-  margin-top: 18px;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-}
-
-.project-btn {
-  display: inline-block;
-  background: #1e3a8a;
-  color: white;
-  padding: 9px 16px;
-  border-radius: 22px;
-  text-decoration: none;
-  font-size: 14px;
-  font-weight: bold;
-}
-
-.project-btn:hover {
-  background: #0f172a;
 }
 
 .tools {
   font-weight: bold;
-  color: #475569;
+  color: #7a6445;
   margin-bottom: 14px;
 }
 
@@ -162,6 +142,28 @@ section h2 {
   margin-bottom: 8px;
 }
 
+.project-links {
+  margin-top: 18px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.project-btn {
+  display: inline-block;
+  background: #3f5f4a;
+  color: #fffaf0;
+  padding: 9px 16px;
+  border-radius: 22px;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.project-btn:hover {
+  background: #1f2a24;
+}
+
 .contact-links {
   margin-top: 25px;
   display: flex;
@@ -170,30 +172,22 @@ section h2 {
 }
 
 .contact-links a {
-  background: #1e3a8a;
-  color: white;
+  background: #3f5f4a;
+  color: #fffaf0;
   padding: 10px 18px;
   border-radius: 25px;
   text-decoration: none;
 }
 
 .contact-links a:hover {
-  background: #0f172a;
+  background: #1f2a24;
 }
 
 footer {
   text-align: center;
   padding: 25px;
-  background: #-top: 25px;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 12px;
-}
-
-.contact-links a {
-  background: #1e3a8a;
- 0f172a;
-  color: white;
+  background: #1f2a24;
+  color: #fffaf0;
   font-size: 14px;
 }
 
@@ -211,7 +205,7 @@ footer {
   }
 
   .hero-content h1 {
-    font-size: 40px;
+    font-size: 42px;
   }
 
   .hero-content h3 {
@@ -220,5 +214,7 @@ footer {
 
   section {
     padding: 55px 6%;
+  }
+}x 6%;
   }
 }
